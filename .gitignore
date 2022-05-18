@@ -1,0 +1,6 @@
+# Hiding files that you wanna keep secret for confidence. 
+
+node_modules
+.env
+
+
