@@ -34,7 +34,7 @@ db.once('open', () => console.log('Connected to Mongoose'))
 //Routes
 app.use('/', indexRouter);
 app.use('/authors', authorRouter);
-app.use('/books', bookRouter)
+app.use('/books', bookRouter);
 
 //Listener
 app.listen(process.env.PORT || 3000);
